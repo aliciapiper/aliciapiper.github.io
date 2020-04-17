@@ -3,7 +3,7 @@ Bio: I am a junior in high-school. I enjoy playing sports such as volleyball/fri
 Links:
 [Media Queries](aliciapiper.github.io)
 [Skeleton](aliciapiper.github.io/resume.html)
-[Flexbox](aliciapiper.github.io)
+[Flexbox](/flexboxwebsite.html)
 [Bootstrap](aliciapiper.github.io)
 [UIKit](aliciapiper.github.io)
 
