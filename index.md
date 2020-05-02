@@ -4,7 +4,7 @@ Links:
 [Media Queries](aliciapiper.github.io)
 [Skeleton](/resume.html)
 [Flexbox](/flexboxwebsite.html)
-[Bootstrap](aliciapiper.github.io)
+[Bootstrap](/bootstrapwebsite.html)
 
 Image -- GitHub Logo:
 ![GitHub Logo][logo]
