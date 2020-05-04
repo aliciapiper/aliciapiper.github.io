@@ -1,7 +1,7 @@
 Bio: I am a junior in high-school. I enjoy playing sports such as volleyball/frisbee, playing musical instruments, and hanging out with my friends and family.
 
 Links:
-[Media Queries](aliciapiper.github.io)
+[Media Queries](/index.html)
 [Skeleton](/resume.html)
 [Flexbox](/flexboxwebsite.html)
 [Bootstrap](/bootstrapwebsite.html)
