@@ -1,119 +1,72 @@
-
 <!DOCTYPE html>
+
 <html>
 
 <head>
-
-<style>
-
-.projectsot {
-	float: left;
-	margin: 20px;
-	padding: 20px;
-}
-
-.projectsfs {
-	float: right;
-	margin: 20px;
-	padding: 20px;
-}
-
-
-.titlefont {
-	color: #FF0000;
-	float: center;
-}
-
-@media (min-width: 480px) {
-	background-color: #000086;
-}
-
-
-@media (min-width: 600px) {
-	background-color: #000086;
-	#wrapper {display: grid;
-		grid-template-columns: 45% auto;
-		grid-template-rows: auto auto auto atuo; }
-	header {grid-row: 1 / 2; grid-column: 1 / 3;}
-	main {grid-row: 2 / 4; grid-column: 1 / 3;}
-	aside {grid-row: 3 / 4; grid-column: 2 / 3;}
-	footer {grid-row: 4 / 5; grid-column: 1 / 3;}
-}
-
-
-</style>
-
-
-<title>Alicia Piper's home page</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<h2 class = "titlefont"><center>Portfolio Home Page</center></h2>
-
-
+  <link rel="stylesheet" href="custom.css">
+  <title>Portfolio Home Page</title>
+  <link rel="icon" href="favicon.jpg">
+  <meta name="viewpoint" content="initial-scale=2.0,width=device-width" />
 </head>
 
 <body>
-<main>
-<center>
 
-<label>Progress of completed projects:</label>
-<progress value = "100" max = "100">100%</progress>
+<div class="container">
+  <div class="top">
+  <h1 class="text">Alicia Piper's Portfolio Home Page</h1>
+  <br><h3 class="text">Progress: <progress class="progressbar" value="100" max="100">100% complete</progress></h3>
+  </div>
 
-<div class = "projectsot">
-<a href = ""><h4>Git Repo</h4></a>
-<img src = "https://i.picsum.photos/id/0/5616/3744.jpg" alt = "Git Repo" height = "30%" width = "30%">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum sit amet justo donec. Aliquet risus feugiat in ante metus dictum at.</p>
+  <div class="maincontent">
+    <br><br><br><br><br><a href="https://github.com/aliciapiper/aliciapiper.github.io/blob/master/index.md"><strong>Git Repo</strong></a>
+    <p>Here is my Git Repo.</p>
+    <img class="res-img" src="repo.PNG" alt="Git Repo"><br><br>
 
-<br>
-<a href = ""><h4>Media Queries Portfolio Page</h4></a>
-<img src = "https://i.picsum.photos/id/0/5616/3744.jpg" alt = "Media Queries Portfolio Page" height = "30%" width = "30%">
-<p>Media Queries are important in responsive web design because they can change the way that users see a web page on different size of devices.
-	They are essential to responsive web design, specifically for mobile devices. Without Media Queries, on small devices such as smartphones or tablets, 
-	pictures and columns will become squished and it will be harder, if not impossible some times to read them.</p> 
 
-<br>
-<a href = "aliciapiper.github.io/resume.html"><h4>Resumé Using Skeleton</h4></a>
-<img src = "resume.jpg" alt = "Resumé Using Skeleton" height = "30%" width = "30%">
-<p>Personally, I liked using Skeleton a lot more than just the media queries. Since the responsiveness is already built into it, 
-  it is a lot easier. Its strengths include the simpleness of the grid system -- how it is set up to use the 12 columns.
-  Its weaknesses include that I felt it was slightly clunky with trying to keep all the divs straight.</p>
+    <br><a href="https://aliciapiper.github.io/"><strong>Media Queries Portfolio Home Page</strong></a>
+    <p class="summaries">Media Queries are important in responsive web design because they can change the way
+      that users see a web page on different size of devices. They are essential to responsive
+      web design, specifically for mobile devices. Without Media Queries, on small devices such
+      as smartphones or tablets, pictures and columns will become squished and it will be harder,
+      if not impossible some times to read them.</p>
+      <img class="res-img" src="homepage.PNG" alt="Media Queries Portfolio Page"><br><br>
+ 
+
+      <br><a href="https://aliciapiper.github.io/resume.html"><strong>Resume Using Skeleton</strong></a>
+      <p>Personally, I liked using Skeleton a lot more than just the media queries. Since the responsiveness 
+        is already built into it, it is a lot easier. Its strengths include the simpleness of the grid system 
+        -- how it is set up to use the 12 columns. Its weaknesses include that I felt it was slightly clunky 
+        with trying to keep all the divs straight.</p>
+      <img class="res-img" src="resume.jpg" alt="Resume Using Skeleton"><br><br>
+  </div>
+
+
+  <div class="morecontent">
+    <br><br><br><br><br><a href="https://aliciapiper.github.io/flexboxwebsite.html"><strong>Flexbox Website</strong></a>
+    <p>Flexbox is designed very well to help create a grid by aligning items. I did not like using it as much 
+      as Skeleton as it was hard to set up different columns within each row. Meaning that in Skeleton, you could 
+      just say that in this row, I want 3 columns and in the next row I want 5 columns. With FlexBox, I found that 
+      harder to do.</p>
+    <img class="res-img" src="flexbox.jpg" alt="Flexbox Website"><br><br>
+  
+    <br><a href="https://aliciapiper.github.io/bootstrapwebsite.html"><strong>Bootstrap Website</strong></a>
+    <p>I loved using Bootstrap! It is definitely my favorite grid system from this semester. It has a very good user 
+      interface, meaning that it was easy for the user. The one weakness (although this is more on my part) is that I 
+      struggled slightly in the begining because I didn't know everything Bootstrap had to offer (meaning all of the 
+      different CSS classes it offered). As mentioned before, I really enjoyed using Bootstrap and feel like it is easier 
+      to use when compared to media queries.</p>
+    <img class="res-img" src="bootstrap.jpg" alt="Bootstrap Website">
+  </div>
+
+
+  <br><footer>
+    <p class="end">This is the sole work of Alicia Piper, hosted using GitHub. Copyright &copy; 2020</p>
+    <br><img class="res-img end" src="qrcode.png" alt="QR Code">
+  </footer>
 </div>
-</center>
-</main>
 
-<aside>
-<center>
-<div class = "projectsfs">
-<a href = "aliciapiper.github.io/flexboxwebsite.html"><h4>Flexbox Website</h4></a>
-<img src = "flexbox.jpg" alt = "Flexbox Website" height = "30%" width = "30%">
-<p>Flexbox is designed very well to help create a grid by aligning items. I did not like using it as much as Skeleton as 
-     it was hard to set up different columns within each row. Meaning that in Skeleton, you could just say that in this row, I want
-     3 columns and in the next row I want 5 columns. With FlexBox, I found that harder to do.</p>
-
-<br>
-<a href = ""><h4>Bootstrap Website</h4></a>
-<img src = "bootstrap.jpg" alt = "Bootstrap Website" height = "30%" width = "30%">
-<p>I loved using Bootstrap! It is definitely my favorite grid system from this semester. It has a very good user interface, meaning
-	that it was easy for the user. The one weakness (although this is more on my part) is that I struggled slightly in the begining
-	because I didn't know everything Bootstrap had to offer (meaning all of the different CSS classes it offered). As mentioned before,
-	I really enjoyed using Bootstrap and feel like it is easier to use when compared to media queries.</p>
-
-<br>
-<a href = ""><h4>UIKit Website</h4></a>
-<img src = "https://i.picsum.photos/id/0/5616/3744.jpg" alt = "UIKit Website" height = "30%" width = "30%">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum sit amet justo donec. Aliquet risus feugiat in ante metus dictum at.</p>
-</div>
-</center>
-</aside>
 </body>
 
 
-<footer>
-<p>This is the sole work of Alicia Piper, hosted using Git.</p>
-<img src "aliciapiper.github.io/qrcode.55097950.png" alt "QR Code" height = "50%" width = "50%">
-</footer>
 
-
-
-
+</html>
